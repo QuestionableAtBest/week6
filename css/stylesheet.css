@@ -10,3 +10,24 @@ h2 + p{
     list-style-type:none;
     border-bottom: 1px solid gray;
 }
+
+li > a:link{
+    color:green
+}
+
+li > a:visited{
+    color:red
+}
+
+li > a:hover{
+    color:pink
+}
+
+li:first-child::first-letter{
+    font:bold;
+    font-size: 120%;
+}
+
+a[title = "BCIT homepage"]{
+    background-color:yellow;
+}
